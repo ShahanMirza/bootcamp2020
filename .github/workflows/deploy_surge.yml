@@ -27,7 +27,7 @@ jobs:
         with:
           node-version:  12
       - name: Installing surge
-        run: npm run -g surge
+        run: npm install -g surge
       - name: Running the surge command
         run: surge ./ shahanmirza.surge.sh --token ${{secrets.BOOTCAMP2020}}
 
