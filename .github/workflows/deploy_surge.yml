@@ -29,5 +29,5 @@ jobs:
       - name: Installing surge
         run: npm run -g surge
       - name: Running the surge command
-        run: surge ./ shahanmirza.surge.sh/ --token ${{secret.BOOTCAMP2020}}
+        run: surge ./ shahanmirza.surge.sh/ --token ${{secrets.BOOTCAMP2020}}
 
